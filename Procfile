@@ -1,1 +1,1 @@
-web: willamabackend.wsgi
+web: gunicorn willamabackend.wsgi:application --log-file -
