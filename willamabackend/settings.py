@@ -36,6 +36,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+# CSRF ALL
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000',
+                        'https://docmebackendrepository-production.up.railway.app', 'https://docme-eight.vercel.app/']
+
 
 # Application definition
 
